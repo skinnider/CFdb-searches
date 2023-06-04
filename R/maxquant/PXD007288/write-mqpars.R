@@ -1,0 +1,180 @@
+# Write mqpar files for the PXD007288 (Skinnider et al., biorXiv 2018) dataset.
+setwd("~/git/CFdb-searches")
+options(stringsAsFactors = F)
+library(argparse)
+
+# parse arguments
+parser = ArgumentParser(prog = 'write-mqpars.R')
+parser$add_argument('--raw_dir', type = 'character', required = T,
+                    help = 'directory containing RAW files')
+parser$add_argument('--mqpar_file', type = 'character', required = T,
+                    help = 'base mqpar file to edit')
+parser$add_argument('--output_dir', type = 'character', required = T,
+                    help = 'output directory to write XML files to')
+args = parser$parse_args()
+
+# load remaining libraries
+library(tidyverse)
+library(magrittr)
+
+# set accession
+accession = "PXD007288"
+
+# set up design
+files = list.files(args$raw_dir, full.names = F)
+
+# match each file to a tissue
+tissues = c('brain', 'heart', 'kidney', 'liver', 'lung', 'muscle', 'thymus')
+tissue_matches = map(files, ~ { 
+  file = .
+  tissues[map_lgl(tissues, ~ grepl(., file, ignore.case = T))]
+})
+# remove files that don't match any tissues
+files %<>% extract(lengths(tissue_matches) > 0)
+# convert tissues to a character vectors
+tissue = tissue_matches %>% 
+  extract(lengths(.) > 0) %>%
+  map_chr(identity)
+
+# tag brain replicate
+replicates = ifelse(tissue == 'brain',
+                    ifelse(grepl('set2', files), 'Brain2', 'Brain1'),
+                    paste0(Hmisc::capitalize(tissue), '1'))
+
+# extract fractions
+fractions = files %>%
+  tolower() %>%
+  gsub("\\.raw.*$", "", .) %>%
+  gsub("fraction_|sample_", "fraction", .) %>%
+  gsub("fraction_", "fraction", .) %>%
+  gsub("^.*fraction", "", .) %>%
+  gsub("-.*$|_.*$", "", .) %>%
+  gsub("v.*$", "", .)
+# format strings
+fractions = substr(fractions, nchar(fractions) - 1, nchar(fractions))
+# add leading F
+fractions %<>% paste0('F', .)
+
+# create design data frame and tag MQ 'fractions'
+design = data.frame(file = files,
+                    replicate = replicates,
+                    experiment = fractions) %>%
+  # remove one fraction 56
+  filter(experiment != 'F56') %>%
+  group_by(replicate, experiment) %>%
+  mutate(fraction = row_number(),
+         # tag lone fraction 1s as fraction 2s for MBR
+         n = n(),
+         fraction = ifelse(n == 1, 2, fraction)) %>%
+  dplyr::select(-n) %>%
+  ungroup() %>%
+  # arrange for pretty printing
+  arrange(replicate, experiment) %>%
+  # filter a corrupt file
+  filter(!grepl("heart_sample_32\\.raw", file),
+         !grepl("Nsco_PCP_SEC_SILAC_Lung_fraction12\\.raw", file))
+
+# write design file to git
+write.csv(design, "data/mqpar/PXD007288/design.csv", row.names = F)
+
+# write mqpar file for each replicate
+replicates = unique(design$replicate)
+for (replicate in replicates) {
+  message("processing replicate ", replicate, " ...")
+  
+  # extract fractions
+  design0 = filter(design, replicate == !!replicate)
+  files = file.path(args$raw_dir, design0$file)
+  experiments = design0$experiment
+  fractions = design0$fraction
+  
+  # make sure all files exist
+  exists = file.exists(files)
+  if (!all(exists)) {
+    warning(replicate, ": ", sum(!exists), " of ", length(exists),
+            " files do not exist")
+    # remove those files
+    design0 %<>% extract(file.exists(files), )
+  }
+  
+  # re-read the base mqpar file
+  mqpar = readLines(args$mqpar_file)
+  
+  # get filepaths, experiments, and fractions
+  filepath_idxs = which(grepl("<(\\/)?filePaths>", mqpar))
+  filepath_start = filepath_idxs[1] + 1
+  filepath_end = filepath_idxs[2] - 1
+  filepath_lines = mqpar[filepath_start:filepath_end]
+  expt_idxs = which(grepl("<(\\/)?experiments>", mqpar))
+  expt_start = expt_idxs[1] + 1
+  expt_end = expt_idxs[2] - 1
+  expt_lines = mqpar[expt_start:expt_end]
+  fraction_idxs = which(grepl("<(\\/)?fractions>", mqpar))
+  fraction_start = fraction_idxs[1] + 1
+  fraction_end = fraction_idxs[2] - 1
+  fraction_lines = mqpar[fraction_start:fraction_end]
+  
+  # fix dimensions
+  dim_params = c("referenceChannel",
+                 "paramGroupIndices",
+                 "ptms")
+  for (dim_param in dim_params) {
+    param_idxs = which(grepl(paste0("<(\\/)?", dim_param, ">"), mqpar))
+    param_start = param_idxs[1] + 1
+    param_end = param_idxs[2] - 1
+    param_lines = mqpar[param_start:param_end]
+    if (n_distinct(param_lines) > 1) 
+      stop("manually investigate paramter: ", dim_params)
+    param_line = unique(param_lines)
+    new_params = rep(param_line, length(files))
+    ## remove old parameter lines
+    mqpar %<>% extract(-c(param_start:param_end))
+    ## insert new ones
+    mqpar %<>% append(new_params, after = param_start - 1) 
+  }
+  
+  # remove old fractions and replace with new ones
+  mqpar %<>% extract(-c(fraction_start:fraction_end))
+  new_fractions = map_chr(fractions, ~ gsub(">.*<", paste0(">", ., "<"), 
+                                            dplyr::first(fraction_lines)))
+  mqpar %<>% append(new_fractions, after = fraction_start - 1) 
+  
+  # remove old experiments and replace with new ones
+  mqpar %<>% extract(-c(expt_start:expt_end))
+  new_expts = map_chr(experiments, ~ gsub(">.*<", paste0(">", ., "<"), 
+                                          dplyr::first(expt_lines)))
+  mqpar %<>% append(new_expts, after = expt_start - 1) 
+  
+  # remove old filepaths and replace with new ones
+  mqpar %<>% extract(-c(filepath_start:filepath_end))
+  new_files = map_chr(files, ~ gsub(">.*<", paste0(">", ., "<"), 
+                                    dplyr::first(filepath_lines)))
+  mqpar %<>% append(new_files, after = filepath_start - 1) 
+  
+  # change multiplicity
+  mqpar[grepl("multiplicity", mqpar)] %<>% 
+    gsub(">.*<", paste0(">", 2, "<"), .)
+  
+  # add SILAC labels
+  labelmod_idxs = which(grepl("<(\\/)?labelMods>", mqpar))
+  labelmod_start = labelmod_idxs[1] + 1
+  labelmod_end = labelmod_idxs[2] - 1
+  labelmod_lines = mqpar[labelmod_start:labelmod_end]
+  mqpar %<>% extract(-c(labelmod_start:labelmod_end))
+  # new_lines = c("            <string />",
+  #               "            <string>Lys6</string>")
+  new_lines = c("            <string>Lys6</string>",
+                "            <string />")
+  mqpar %<>% append(new_lines, after = labelmod_start - 1) 
+  
+  # change enzyme mode to semispecific
+  mqpar[grepl("enzymeMode", mqpar)] %<>% 
+    gsub(">.*<", paste0(">", 1, "<"), .)
+  
+  # write output
+  output_filename = paste0("mqpar-", accession, "-", replicate, ".xml")
+  if (!dir.exists(args$output_dir))
+    dir.create(args$output_dir, recursive = T)
+  output_file = file.path(args$output_dir, output_filename)
+  writeLines(mqpar, output_file)
+}

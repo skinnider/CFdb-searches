@@ -1,0 +1,412 @@
+Author,Year,Accession,Replicate,Quantitation,Fractionation,Species,Version
+Aryal,2014,MSV000082122,Bio1,Spectral counts,SEC,Arabidopsis thaliana,V1
+Aryal,2014,MSV000082122,Bio2,Spectral counts,SEC,Arabidopsis thaliana,V1
+Aryal,2017,MSV000081206,Bio1,Intensity,SEC,Arabidopsis thaliana,V1
+Aryal,2017,MSV000081206,Bio2,Intensity,SEC,Arabidopsis thaliana,V1
+Aryal,2018,MSV000082916,B1,LFQ,SEC,Cyanothece ATCC 51142,V1
+Aryal,2018,MSV000082916,B2,LFQ,SEC,Cyanothece ATCC 51142,V1
+Chihara,2022,PXD036475,No612,LFQ,SEC,Escherichia coli,V2
+Connelly,2018,MSV000081520,Bio1,Intensity,SEC,Homo sapiens,V1
+Connelly,2018,MSV000081520,Bio2,Intensity,SEC,Homo sapiens,V1
+Crozier,2017,PXD005968,SEC300_E3017,LFQ,SEC,Trypanosoma brucei,V1
+Crozier,2017,PXD005968,SEC300_E3019,LFQ,SEC,Trypanosoma brucei,V1
+Crozier,2017,PXD005968,SEC300_E3021,LFQ,SEC,Trypanosoma brucei,V1
+Crozier,2017,PXD005968,SEC300_E3023,LFQ,SEC,Trypanosoma brucei,V1
+Crozier,2017,PXD005968,SEC300_E3025,LFQ,SEC,Trypanosoma brucei,V1
+Crozier,2017,PXD005968,SEC1000_E3020,LFQ,SEC,Trypanosoma brucei,V1
+Crozier,2017,PXD005968,SEC1000_E3022,LFQ,SEC,Trypanosoma brucei,V1
+Crozier,2017,PXD005968,SEC1000_E3024,LFQ,SEC,Trypanosoma brucei,V1
+Crozier,2017,PXD005968,SEC1000_E3026,LFQ,SEC,Trypanosoma brucei,V1
+Crozier,2017,PXD005968,SEC1000_E3027,LFQ,SEC,Trypanosoma brucei,V1
+Crozier,2017,PXD005968,SAX_E3028,LFQ,IEX,Trypanosoma brucei,V1
+Drew,2020,PXD017650,Control,Spectral counts,SEC,Xenopus laevis,V1
+Drew,2020,PXD017650,RNAse,Spectral counts,SEC,Xenopus laevis,V1
+Drew,2020,PXD017659,Control,Spectral counts,SEC,Xenopus laevis,V1
+Drew,2020,PXD017659,RNAse,Spectral counts,SEC,Xenopus laevis,V1
+Gazestani,2016,PXD002640,Cyto-IEX,Intensity,IEX,Trypanosoma brucei,V1
+Gazestani,2016,PXD002640,Mito-IEX,Intensity,IEX,Trypanosoma brucei,V1
+Gilbert,2019,PXD009511,Rep1,LFQ,SEC,Arabidopsis thaliana,V1
+Gilbert,2019,PXD009511,Rep2,LFQ,SEC,Arabidopsis thaliana,V1
+Gorka,2019,PXD010919,ED_1,LFQ,N-PAGE,Arabidopsis thaliana,V1
+Gorka,2019,PXD010919,ED_2,LFQ,N-PAGE,Arabidopsis thaliana,V1
+Gorka,2019,PXD010919,ED_3,LFQ,N-PAGE,Arabidopsis thaliana,V1
+Gorka,2019,PXD010919,ED_4,LFQ,N-PAGE,Arabidopsis thaliana,V1
+Gorka,2019,PXD010919,EN_1,LFQ,N-PAGE,Arabidopsis thaliana,V1
+Gorka,2019,PXD010919,EN_2,LFQ,N-PAGE,Arabidopsis thaliana,V1
+Gorka,2019,PXD010919,EN_3,LFQ,N-PAGE,Arabidopsis thaliana,V1
+Gorka,2019,PXD010919,EN_4,LFQ,N-PAGE,Arabidopsis thaliana,V1
+Hillier,2019,PXD009039,CH09,Intensity,N-PAGE,Plasmodium berghei,V1
+Hillier,2019,PXD009039,CH10,Intensity,N-PAGE,Plasmodium berghei,V1
+Hillier,2019,PXD009039,CH12,Intensity,N-PAGE,Plasmodium berghei,V1
+Hillier,2019,PXD009039,CH20,Intensity,N-PAGE,Plasmodium berghei,V1
+Hillier,2019,PXD009039,CH21,Intensity,N-PAGE,Plasmodium berghei,V1
+Hillier,2019,PXD009039,CH24,Intensity,N-PAGE,Plasmodium berghei,V1
+Hillier,2019,PXD009039,CH13,Intensity,N-PAGE,Plasmodium falciparum,V1
+Hillier,2019,PXD009039,CH14,Intensity,N-PAGE,Plasmodium falciparum,V1
+Hillier,2019,PXD009039,CH15,Intensity,N-PAGE,Plasmodium falciparum,V1
+Hillier,2019,PXD009039,CH25,Intensity,N-PAGE,Plasmodium falciparum,V1
+Hillier,2019,PXD009039,CH26,Intensity,N-PAGE,Plasmodium falciparum,V1
+Hillier,2019,PXD009039,CH27,Intensity,N-PAGE,Plasmodium falciparum,V1
+Hillier,2019,PXD009039,CH16,Intensity,N-PAGE,Plasmodium knowlesi,V1
+Hillier,2019,PXD009039,CH17,Intensity,N-PAGE,Plasmodium knowlesi,V1
+Hillier,2019,PXD009039,CH18,Intensity,N-PAGE,Plasmodium knowlesi,V1
+Hillier,2019,PXD009039,CH19,Intensity,N-PAGE,Plasmodium knowlesi,V1
+Hillier,2019,PXD009039,CH22,Intensity,N-PAGE,Plasmodium knowlesi,V1
+Hillier,2019,PXD009039,CH23,Intensity,N-PAGE,Plasmodium knowlesi,V1
+Hu,2019,PXD011182,expt_1,Spectral counts,IEX,Caenorhabditis elegans,V1
+Hu,2019,PXD011182,expt_2,Spectral counts,IEX,Caenorhabditis elegans,V1
+Hu,2019,PXD011182,expt_3,Spectral counts,IEX,Caenorhabditis elegans,V1
+Hu,2019,PXD011182,expt_4,Spectral counts,IEX,Caenorhabditis elegans,V1
+Hu,2019,PXD011182,expt_5,Spectral counts,IEX,Caenorhabditis elegans,V1
+Kastritis,2017,PXD006660,A,Dimethyl,SEC,Chaetomium thermophilum,V1
+Kastritis,2017,PXD006660,B,Dimethyl,SEC,Chaetomium thermophilum,V1
+Kastritis,2017,PXD006660,C,Dimethyl,SEC,Chaetomium thermophilum,V1
+Kirkwood,2013,PXD001220,rep1,Spectral counts,SEC,Homo sapiens,V1
+Kirkwood,2013,PXD001220,rep2,Spectral counts,SEC,Homo sapiens,V1
+Kirkwood,2013,PXD001220,rep3,Spectral counts,SEC,Homo sapiens,V1
+Larance,2016,PXD003754,PT3281S1,LFQ,XL-SEC,Homo sapiens,V1
+Larance,2016,PXD003754,PT3441S1,LFQ,XL-SEC,Homo sapiens,V1
+Larance,2016,PXD003754,PT3442S1,LFQ,XL-SEC,Homo sapiens,V1
+Larance,2016,PXD003754,PT3701S1,LFQ,XL-SEC,Homo sapiens,V1
+Larance,2016,PXD003754,PTSS3801,LFQ,XL-SEC,Homo sapiens,V1
+Larance,2016,PXD003754,PTSS3802,LFQ,XL-SEC,Homo sapiens,V1
+Mallam,2019,PXD015406,Control,Spectral counts,SEC,Homo sapiens,V1
+Mallam,2019,PXD015406,RNaseA,Spectral counts,SEC,Homo sapiens,V1
+Mallam,2019,PXD014820,Ctrl,Spectral counts,SEC,Homo sapiens,V1
+Mallam,2019,PXD014820,RNAseA,Spectral counts,SEC,Homo sapiens,V1
+Mallam,2019,PXD014607,Cntl,Spectral counts,SEC,Mus musculus,V1
+Mallam,2019,PXD014607,RNAse,Spectral counts,SEC,Mus musculus,V1
+McBride,2017,PXD006694,Superdex1,Spectral counts,SEC,Arabidopsis thaliana,V1
+McBride,2017,PXD006694,Superdex2,Spectral counts,SEC,Arabidopsis thaliana,V1
+McBride,2017,PXD006694,Superose1,Spectral counts,SEC,Arabidopsis thaliana,V1
+McBride,2017,PXD006694,Superose2,Spectral counts,SEC,Arabidopsis thaliana,V1
+McBride,2017,PXD006694,Sucrose1,Spectral counts,Sucrose,Arabidopsis thaliana,V1
+McBride,2017,PXD006694,Sucrose2,Spectral counts,Sucrose,Arabidopsis thaliana,V1
+McWhite,2020,PXD012865,maize_leaf1,Spectral counts,SEC,Zea mays,V1
+McWhite,2020,PXD013004,sollc_leaf1,Spectral counts,IEX,Solanum lycopersicum,V1
+McWhite,2020,PXD013093,selml_frond1,Spectral counts,SEC,Selaginella moellendorffii,V1
+McWhite,2020,PXD013093,selml_frond2,Spectral counts,IEX,Selaginella moellendorffii,V1
+McWhite,2020,PXD013198,soybn_sprout1,Spectral counts,SEC,Glycine max,V1
+McWhite,2020,PXD013198,soybn_sprout2,Spectral counts,SEC,Glycine max,V1
+McWhite,2020,PXD013213,orysj_leaf1,Spectral counts,IEX,Oryza sativa,V1
+McWhite,2020,PXD013213,orysj_leaf2,Spectral counts,SEC,Oryza sativa,V1
+McWhite,2020,PXD013213,orysj_leaf3,Spectral counts,IEX,Oryza sativa,V1
+McWhite,2020,PXD013214,wheat_grass1,Spectral counts,SEC,Triticum aestivum,V1
+McWhite,2020,PXD013264,arath_seed1,Spectral counts,IEX,Arabidopsis thaliana,V1
+McWhite,2020,PXD013280,wheat_germ1,Spectral counts,IEF,Triticum aestivum,V1
+McWhite,2020,PXD013281,braol_nuc3,Spectral counts,IEF,Brassica oleracea var. italica,V1
+McWhite,2020,PXD013282,braol_whole1,Spectral counts,IEX,Brassica oleracea var. italica,V1
+McWhite,2020,PXD013300,wheat_germ2,Spectral counts,SEC,Triticum aestivum,V1
+McWhite,2020,PXD013300,wheat_germ3,Spectral counts,IEX,Triticum aestivum,V1
+McWhite,2020,PXD013300,wheat_germ4,Spectral counts,SEC,Triticum aestivum,V1
+McWhite,2020,PXD013321,arath_sprout1,Spectral counts,IEX,Arabidopsis thaliana,V1
+McWhite,2020,PXD013321,arath_sprout2,Spectral counts,SEC,Arabidopsis thaliana,V1
+McWhite,2020,PXD013322,braol_nuc1,Spectral counts,IEX,Brassica oleracea var. italica,V1
+McWhite,2020,PXD013322,braol_nuc2,Spectral counts,SEC,Brassica oleracea var. italica,V1
+McWhite,2020,PXD013369,chlre_nuc1,Spectral counts,SEC,Chlamydomonas reinhardtii,V1
+McWhite,2020,PXD013369,chlre_whole1,Spectral counts,SEC,Chlamydomonas reinhardtii,V1
+McWhite,2020,PXD013369,chlre_whole2,Spectral counts,IEX,Chlamydomonas reinhardtii,V1
+McWhite,2020,PXD014617,arath_dark1,Spectral counts,IEX,Arabidopsis thaliana,V1
+McWhite,2020,PXD014617,arath_dark2,Spectral counts,IEX,Arabidopsis thaliana,V1
+McWhite,2020,PXD014617,arath_leaf1,Spectral counts,IEX,Arabidopsis thaliana,V1
+McWhite,2020,PXD014617,arath_leaf2,Spectral counts,IEX,Arabidopsis thaliana,V1
+Mergner,2020,PXD013868,sFL,iBAQ,SEC,Arabidopsis thaliana,V1
+Mergner,2020,PXD013868,sLF,iBAQ,SEC,Arabidopsis thaliana,V1
+Mergner,2020,PXD013868,sRT,iBAQ,SEC,Arabidopsis thaliana,V1
+Moutaoufik,2019,PXD009831,R1,Spectral counts,IEX,Homo sapiens,V1
+Moutaoufik,2019,PXD009831,R2,Spectral counts,IEX,Homo sapiens,V1
+Moutaoufik,2019,PXD009832,R1,Spectral counts,IEX,Homo sapiens,V1
+Moutaoufik,2019,PXD009832,R2,Spectral counts,IEX,Homo sapiens,V1
+Moutaoufik,2019,PXD009833,R1,Spectral counts,SEC,Homo sapiens,V1
+Moutaoufik,2019,PXD009833,R2,Spectral counts,SEC,Homo sapiens,V1
+Moutaoufik,2019,PXD009834,R1,Spectral counts,SEC,Homo sapiens,V1
+Moutaoufik,2019,PXD009834,R2,Spectral counts,SEC,Homo sapiens,V1
+Pourhaghighi,2020,PXD011304,2D_IEF1,Intensity,IEF,Mus musculus,V1
+Pourhaghighi,2020,PXD011304,2d_IEF2,Intensity,IEF,Mus musculus,V1
+Pourhaghighi,2020,PXD011304,2D_IEF3,Intensity,IEF,Mus musculus,V1
+Pourhaghighi,2020,PXD011304,2D_IEF4,Intensity,IEF,Mus musculus,V1
+Pourhaghighi,2020,PXD011304,2D_IEF5,Intensity,IEF,Mus musculus,V1
+Pourhaghighi,2020,PXD011304,Cyto60,Intensity,IEX,Mus musculus,V1
+Pourhaghighi,2020,PXD011304,HIEX110,Intensity,IEX,Mus musculus,V1
+Pourhaghighi,2020,PXD011304,IEX90,Intensity,IEX,Mus musculus,V1
+Pourhaghighi,2020,PXD011304,Mem60,Intensity,IEX,Mus musculus,V1
+Rugen,2019,PXD011088,Rep1,iBAQ,N-PAGE,Arabidopsis thaliana,V1
+Rugen,2019,PXD011088,Rep2,iBAQ,N-PAGE,Arabidopsis thaliana,V1
+Rugen,2019,PXD011088,Rep3,iBAQ,XL-N-PAGE,Arabidopsis thaliana,V1
+Rugen,2019,PXD011088,Rep4,iBAQ,Sucrose,Arabidopsis thaliana,V1
+Scott,2017,PXD002892,SEC1-heavy,SILAC,SEC,Homo sapiens,V1
+Scott,2017,PXD002892,SEC1-medium,SILAC,SEC,Homo sapiens,V1
+Scott,2017,PXD002892,SEC2-heavy,SILAC,SEC,Homo sapiens,V1
+Scott,2017,PXD002892,SEC2-medium,SILAC,SEC,Homo sapiens,V1
+Scott,2017,PXD002892,SEC3-heavy,SILAC,SEC,Homo sapiens,V1
+Scott,2017,PXD002892,SEC3-medium,SILAC,SEC,Homo sapiens,V1
+Scott,2017,PXD002892,BN1-heavy,SILAC,N-PAGE,Homo sapiens,V1
+Scott,2017,PXD002892,BN1-medium,SILAC,N-PAGE,Homo sapiens,V1
+Scott,2017,PXD002892,BN2-heavy,SILAC,N-PAGE,Homo sapiens,V1
+Scott,2017,PXD002892,BN2-medium,SILAC,N-PAGE,Homo sapiens,V1
+Scott,2017,PXD002892,BN3-heavy,SILAC,N-PAGE,Homo sapiens,V1
+Scott,2017,PXD002892,BN3-medium,SILAC,N-PAGE,Homo sapiens,V1
+Senkler,2018,PXD008974,map,iBAQ,N-PAGE,Arabidopsis thaliana,V1
+Skinnider,2018,PXD007288,Brain1,SILAC,SEC,Mus musculus,V1
+Skinnider,2018,PXD007288,Brain2,SILAC,SEC,Mus musculus,V1
+Skinnider,2018,PXD007288,Heart1,SILAC,SEC,Mus musculus,V1
+Skinnider,2018,PXD007288,Kidney1,SILAC,SEC,Mus musculus,V1
+Skinnider,2018,PXD007288,Liver1,SILAC,SEC,Mus musculus,V1
+Skinnider,2018,PXD007288,Lung1,SILAC,SEC,Mus musculus,V1
+Skinnider,2018,PXD007288,Muscle1,SILAC,SEC,Mus musculus,V1
+Skinnider,2018,PXD007288,Thymus1,SILAC,SEC,Mus musculus,V1
+Wan,2015,PXD002319,Ce_HCW_1,Spectral counts,IEX,Caenorhabditis elegans,V1
+Wan,2015,PXD002319,Ce_HCW_2,Spectral counts,IEX,Caenorhabditis elegans,V1
+Wan,2015,PXD002319,Ce_HCW_3,Spectral counts,IEX,Caenorhabditis elegans,V1
+Wan,2015,PXD002319,Ce_Bead_IEX_1,Spectral counts,IEX,Caenorhabditis elegans,V1
+Wan,2015,PXD002319,Ce_Bead_IEX_2,Spectral counts,IEX,Caenorhabditis elegans,V1
+Wan,2015,PXD002319,Ce_Bead_IEX_3,Spectral counts,IEX,Caenorhabditis elegans,V1
+Wan,2015,PXD002319,Ce_Bead_IEX_4,Spectral counts,IEX,Caenorhabditis elegans,V1
+Wan,2015,PXD002319,Ce_Bead_IEX_5,Spectral counts,IEX,Caenorhabditis elegans,V1
+Wan,2015,PXD002319,Ce_Bead_IEX_6,Spectral counts,IEX,Caenorhabditis elegans,V1
+Wan,2015,PXD002319,Ce_Bead_IEX_7,Spectral counts,IEX,Caenorhabditis elegans,V1
+Wan,2015,PXD002319,Ce_Bead_IEX_8,Spectral counts,IEX,Caenorhabditis elegans,V1
+Wan,2015,PXD002320,Dd_HCW_1,Spectral counts,IEX,Dictyostelium discoideum,V1
+Wan,2015,PXD002320,Dd_HCW_2,Spectral counts,IEX,Dictyostelium discoideum,V1
+Wan,2015,PXD002320,Dd_HCW_3,Spectral counts,IEX,Dictyostelium discoideum,V1
+Wan,2015,PXD002321,Dm_HCW_1,Spectral counts,IEX,Drosophila melanogaster,V1
+Wan,2015,PXD002321,Dm_HCW_3,Spectral counts,IEX,Drosophila melanogaster,V1
+Wan,2015,PXD002321,Dm_HCW_2,Spectral counts,IEX,Drosophila melanogaster,V1
+Wan,2015,PXD002321,Dm_HCW_4,Spectral counts,IEX,Drosophila melanogaster,V1
+Wan,2015,PXD002322,Hs_HCW_1,Spectral counts,IEX,Homo sapiens,V1
+Wan,2015,PXD002322,Hs_HCW_2,Spectral counts,IEX,Homo sapiens,V1
+Wan,2015,PXD002322,Hs_HCW_3,Spectral counts,IEX,Homo sapiens,V1
+Wan,2015,PXD002322,Hs_HCW_4,Spectral counts,IEX,Homo sapiens,V1
+Wan,2015,PXD002322,Hs_HCW_5,Spectral counts,IEX,Homo sapiens,V1
+Wan,2015,PXD002322,Hs_HCW_6,Spectral counts,IEX,Homo sapiens,V1
+Wan,2015,PXD002322,Hs_HCW_7,Spectral counts,IEX,Homo sapiens,V1
+Wan,2015,PXD002322,Hs_HCW_8,Spectral counts,IEX,Homo sapiens,V1
+Wan,2015,PXD002322,Hs_HCW_9,Spectral counts,IEX,Homo sapiens,V1
+Wan,2015,PXD002322,Hs_IEX_1,Spectral counts,IEX,Homo sapiens,V1
+Wan,2015,PXD002322,Hs_IEX_2,Spectral counts,IEX,Homo sapiens,V1
+Wan,2015,PXD002323,Mm_HCW_1,Spectral counts,IEX,Mus musculus,V1
+Wan,2015,PXD002323,Mm_HCW_2,Spectral counts,IEX,Mus musculus,V1
+Wan,2015,PXD002324,Nv_HCW_1,Spectral counts,IEX,Nematostella vectensis,V1
+Wan,2015,PXD002324,Nv_IEX_1,Spectral counts,IEX,Nematostella vectensis,V1
+Wan,2015,PXD002324,Nv_IEX_2,Spectral counts,IEX,Nematostella vectensis,V1
+Wan,2015,PXD002324,Nv_IEX_3,Spectral counts,IEX,Nematostella vectensis,V1
+Wan,2015,PXD002324,Nv_IEX_4,Spectral counts,IEX,Nematostella vectensis,V1
+Wan,2015,PXD002324,Nv_IEX_5,Spectral counts,IEX,Nematostella vectensis,V1
+Wan,2015,PXD002325,Sp_HCW_5,Spectral counts,IEX,Strongylocentrotus purpuratus,V1
+Wan,2015,PXD002325,Sp_HCW_4,Spectral counts,IEX,Strongylocentrotus purpuratus,V1
+Wan,2015,PXD002325,Sp_HCW_2,Spectral counts,IEX,Strongylocentrotus purpuratus,V1
+Wan,2015,PXD002325,Sp_HCW_3,Spectral counts,IEX,Strongylocentrotus purpuratus,V1
+Wan,2015,PXD002325,Sp_HCW_1,Spectral counts,IEX,Strongylocentrotus purpuratus,V1
+Wan,2015,PXD002325,Sp_HCW_6,Spectral counts,IEX,Strongylocentrotus purpuratus,V1
+Wan,2015,PXD002325,Sp_IEX_1,Spectral counts,IEX,Strongylocentrotus purpuratus,V1
+Wan,2015,PXD002325,Sp_Bead_IEX_1,Spectral counts,IEX,Strongylocentrotus purpuratus,V1
+Wan,2015,PXD002325,Sp_Bead_IEX_2,Spectral counts,IEX,Strongylocentrotus purpuratus,V1
+Wan,2015,PXD002325,Sp_Bead_IEX_3,Spectral counts,IEX,Strongylocentrotus purpuratus,V1
+Wan,2015,PXD002326,Xl_Sucrose_1,Spectral counts,Sucrose,Xenopus laevis,V1
+Wan,2015,PXD002326,Xl_Sucrose_3,Spectral counts,Sucrose,Xenopus laevis,V1
+Wan,2015,PXD002326,Xl_Sucrose_4,Spectral counts,Sucrose,Xenopus laevis,V1
+Wan,2015,PXD002327,Sc_IEX_1,Spectral counts,IEX,Saccharomyces cerevisiae,V1
+Alahmad,2020,PXD014936,Ctrl,,BN-PAGE,Homo sapiens,V2
+Alahmad,2020,PXD014936,M0373,,BN-PAGE,Homo sapiens,V2
+Alahmad,2020,PXD014936,M24863,,BN-PAGE,Homo sapiens,V2
+Alston,2020,PXD015749,Ctrl,,BN-PAGE,Homo sapiens,V2
+Alston,2020,PXD015749,Patient,,BN-PAGE,Homo sapiens,V2
+Anand,2020,PXD016732,WT,,BN-PAGE,Homo sapiens,V2
+Anand,2020,PXD016732,Mic26,,BN-PAGE,Homo sapiens,V2
+Anand,2020,PXD016732,Mic27,,BN-PAGE,Homo sapiens,V2
+Anand,2020,PXD016732,Mic26_27,,BN-PAGE,Homo sapiens,V2
+Anand,2020,PXD016733,WT,,BN-PAGE,Homo sapiens,V2
+Anand,2020,PXD016733,Mic26,,BN-PAGE,Homo sapiens,V2
+Anand,2020,PXD016733,Mic27,,BN-PAGE,Homo sapiens,V2
+Anand,2020,PXD016733,Mic26_27,,BN-PAGE,Homo sapiens,V2
+CaudronHerger,2019,MSV000082468,R-DeeP-1,TMT,Sucrose,Homo sapiens,V2
+CaudronHerger,2019,MSV000082468,R-DeeP-2,TMT,Sucrose,Homo sapiens,V2
+CaudronHerger,2019,MSV000082468,R-DeeP-3,TMT,Sucrose,Homo sapiens,V2
+CaudronHerger,2019,MSV000082468,R-DeeP-4,TMT,Sucrose,Homo sapiens,V2
+CaudronHerger,2019,MSV000082468,R-DeeP-5,TMT,Sucrose,Homo sapiens,V2
+CaudronHerger,2019,MSV000082468,R-DeeP-6,TMT,Sucrose,Homo sapiens,V2
+Daniels,2020,PXD016469,UT,,SEC,Homo sapiens,V2
+Daniels,2020,PXD016469,LPS,,SEC,Homo sapiens,V2
+deAlmeida,2016,PXD004566,BN3to12,,BN-PAGE,Kuenenia stuttgartiensis,V2
+deAlmeida,2016,PXD004566,BN4to16,,BN-PAGE,Kuenenia stuttgartiensis,V2
+Floyd,2018,PXD021422,012019_Control,,SEC,Homo sapiens,V2
+Floyd,2018,PXD021422,012019_Phosphatase,,SEC,Homo sapiens,V2
+Floyd,2018,PXD021422,022019_Control,,SEC,Homo sapiens,V2
+Floyd,2018,PXD021422,022019_Phosphatase,,SEC,Homo sapiens,V2
+Floyd,2018,PXD021422,032019_Control,,SEC,Homo sapiens,V2
+Floyd,2018,PXD021422,032019_Phosphatase,,SEC,Homo sapiens,V2
+Gerovac,2020,PXD018422,Gradient1,,Glycerol,Salmonella typhimurium SL1344,V2
+Gerovac,2020,PXD018422,Gradient2,,Glycerol,Salmonella typhimurium SL1344,V2
+GuerreroCastillo,2021,PXD023211,MCP1-1,TMT,BN-PAGE,Homo sapiens,V2
+GuerreroCastillo,2021,PXD023211,MCP1-2,TMT,BN-PAGE,Homo sapiens,V2
+GuerreroCastillo,2021,PXD023211,MCP1-3,TMT,BN-PAGE,Homo sapiens,V2
+GuerreroCastillo,2021,PXD023211,MCP1-4,TMT,BN-PAGE,Homo sapiens,V2
+GuerreroCastillo,2021,PXD023211,MCP1-5,TMT,BN-PAGE,Homo sapiens,V2
+GuerreroCastillo,2021,PXD023211,MCP1-6,TMT,BN-PAGE,Homo sapiens,V2
+GuerreroCastillo,2021,PXD023211,MCP2-1,TMT,BN-PAGE,Homo sapiens,V2
+GuerreroCastillo,2021,PXD023211,MCP2-2,TMT,BN-PAGE,Homo sapiens,V2
+GuerreroCastillo,2021,PXD023211,MCP2-3,TMT,BN-PAGE,Homo sapiens,V2
+GuerreroCastillo,2021,PXD023211,MCP2-4,TMT,BN-PAGE,Homo sapiens,V2
+GuerreroCastillo,2021,PXD023211,MCP2-5,TMT,BN-PAGE,Homo sapiens,V2
+GuerreroCastillo,2021,PXD023211,MCP2-6,TMT,BN-PAGE,Homo sapiens,V2
+GuerreroCastillo,2021,PXD023211,MCP3-1,TMT,BN-PAGE,Homo sapiens,V2
+GuerreroCastillo,2021,PXD023211,MCP3-2,TMT,BN-PAGE,Homo sapiens,V2
+GuerreroCastillo,2021,PXD023211,MCP3-3,TMT,BN-PAGE,Homo sapiens,V2
+GuerreroCastillo,2021,PXD023211,MCP3-4,TMT,BN-PAGE,Homo sapiens,V2
+GuerreroCastillo,2021,PXD023211,MCP3-5,TMT,BN-PAGE,Homo sapiens,V2
+GuerreroCastillo,2021,PXD023211,MCP3-6,TMT,BN-PAGE,Homo sapiens,V2
+GuerreroCastillo,2021,PXD023211,MCP4-1,TMT,BN-PAGE,Homo sapiens,V2
+GuerreroCastillo,2021,PXD023211,MCP4-2,TMT,BN-PAGE,Homo sapiens,V2
+GuerreroCastillo,2021,PXD023211,MCP4-3,TMT,BN-PAGE,Homo sapiens,V2
+GuerreroCastillo,2021,PXD023211,MCP4-4,TMT,BN-PAGE,Homo sapiens,V2
+GuerreroCastillo,2021,PXD023211,MCP4-5,TMT,BN-PAGE,Homo sapiens,V2
+GuerreroCastillo,2021,PXD023211,MCP4-6,TMT,BN-PAGE,Homo sapiens,V2
+Havugimana,2022,PXD027704,PH-BC-MAP-B-1,TMT,IEX,Homo sapiens,V2
+Havugimana,2022,PXD027704,PH-BC-MAP-B-2,TMT,IEX,Homo sapiens,V2
+Havugimana,2022,PXD027704,PH-BC-MAP-B-3,TMT,IEX,Homo sapiens,V2
+Havugimana,2022,PXD027704,PH-BC-MAP-B-4,TMT,IEX,Homo sapiens,V2
+Havugimana,2022,PXD027704,PH-BC-MAP-B-5,TMT,IEX,Homo sapiens,V2
+Havugimana,2022,PXD027704,PH-BC-MAP-B-6,TMT,IEX,Homo sapiens,V2
+Hor,2020,PXD019900,No455,,Glycerol,Escherichia coli,V2
+Kerr,2020,PXD013809,rep2-medium,SILAC,SEC,Homo sapiens,V2
+Kerr,2020,PXD013809,rep2-heavy,SILAC,SEC,Homo sapiens,V2
+Kerr,2020,PXD013809,rep3-medium,SILAC,SEC,Homo sapiens,V2
+Kerr,2020,PXD013809,rep3-heavy,SILAC,SEC,Homo sapiens,V2
+Kerr,2020,PXD013809,rep4-medium,SILAC,SEC,Homo sapiens,V2
+Kerr,2020,PXD013809,rep4-heavy,SILAC,SEC,Homo sapiens,V2
+Lee,2021,PXD022357,SB1,,SEC,Oryza sativa,V2
+Lee,2021,PXD022357,SB2,,SEC,Oryza sativa,V2
+Lee,2021,PXD022357,IB1,,IEX,Oryza sativa,V2
+Lee,2021,PXD022357,IB2,,IEX,Oryza sativa,V2
+Lee,2021,PXD021451,B1,,SEC,Gossypium hirsutum,V2
+Lee,2021,PXD021451,B2,,SEC,Gossypium hirsutum,V2
+Lee,2021,PXD021452,Bio1,,SEC,Glycine max,V2
+Lee,2021,PXD021452,Bio2,,SEC,Glycine max,V2
+Lee,2021,PXD021454,B1,,SEC,Arabidopsis thaliana,V2
+Lee,2021,PXD021454,B2,,SEC,Arabidopsis thaliana,V2
+Lenz,2021,PXD019004,B181215,,SEC,Escherichia coli,V2
+Li,2021,PXD025571,Bert,,SEC,Chaetomium thermophilum,V2
+Li,2021,PXD025571,Ernie,,SEC,Chaetomium thermophilum,V2
+Ligas,2019,PXD023017,leaves1,,BN-PAGE,Arabidopsis thaliana,V2
+Ligas,2019,PXD023017,leaves2,,BN-PAGE,Arabidopsis thaliana,V2
+Ligas,2019,PXD023017,leaves3,,BN-PAGE,Arabidopsis thaliana,V2
+Ligas,2019,PXD023017,seedlings1,,BN-PAGE,Arabidopsis thaliana,V2
+Ligas,2019,PXD023017,seedlings2,,BN-PAGE,Arabidopsis thaliana,V2
+Ligas,2019,PXD023017,seedlings3,,BN-PAGE,Arabidopsis thaliana,V2
+LoboJarne,2020,PXD017840,143B,,BN-PAGE,Homo sapiens,V2
+LoboJarne,2020,PXD017840,Cox1,,BN-PAGE,Homo sapiens,V2
+LoboJarne,2020,PXD017840,Cox2,,BN-PAGE,Homo sapiens,V2
+Luzarowski,2021,PXD021530,Rep1,,SEC,Saccharomyces cerevisiae,V2
+Luzarowski,2021,PXD021530,Rep2,,SEC,Saccharomyces cerevisiae,V2
+Luzarowski,2021,PXD021530,Rep3,,SEC,Saccharomyces cerevisiae,V2
+Maletzko,2021,PXD025478,WT,,BN-PAGE,Mus musculus,V2
+Maletzko,2021,PXD025478,KO,,BN-PAGE,Mus musculus,V2
+Morgenstern,2021,PXD028149,BN_1,,BN-PAGE,Homo sapiens,V2
+Morgenstern,2021,PXD028149,BN_2,,BN-PAGE,Homo sapiens,V2
+Morgenstern,2021,PXD028149,BN_dLYRM9,,BN-PAGE,Homo sapiens,V2
+Morgenstern,2021,PXD028149,BN_WT,,BN-PAGE,Homo sapiens,V2
+Muller,2016,PXD002681,csBN,,BN-PAGE,Rattus norvegicus,V2
+Nuebel,2021,PXD024625,245,,BN-PAGE,Saccharomyces cerevisiae,V2
+Nuebel,2021,PXD024625,2726,,BN-PAGE,Saccharomyces cerevisiae,V2
+Nuebel,2021,PXD024625,2995,,BN-PAGE,Saccharomyces cerevisiae,V2
+Pang,2020,PXD019513,SECPCP_zymo_lysate,,SEC,Saccharomyces cerevisiae,V2
+Patron,2022,PXD033084,C,,BN-PAGE,Homo sapiens,V2
+Patron,2022,PXD033084,D,,BN-PAGE,Homo sapiens,V2
+Piazza,2018,PXD006543,Vehicle,,SEC,Escherichia coli,V2
+Piazza,2018,PXD006543,ATP,,SEC,Escherichia coli,V2
+Prior,2016,PXD003509,Nox4,,BN-PAGE,Homo sapiens,V2
+Protasoni,2020,PXD016521,180213,,BN-PAGE,Homo sapiens,V2
+Protasoni,2020,PXD016521,180219,,BN-PAGE,Homo sapiens,V2
+Protasoni,2020,PXD016521,180307,,BN-PAGE,Homo sapiens,V2
+Protasoni,2020,PXD016521,180313,,BN-PAGE,Homo sapiens,V2
+Rugen,2021,PXD019253,Dark_I,,BN-PAGE,Arabidopsis thaliana,V2
+Rugen,2021,PXD019253,Dark_II,,BN-PAGE,Arabidopsis thaliana,V2
+Rugen,2021,PXD019253,Dark_III,,BN-PAGE,Arabidopsis thaliana,V2
+Rugen,2021,PXD019253,Dark_IV,,BN-PAGE,Arabidopsis thaliana,V2
+Rugen,2021,PXD019253,Dark_V,,BN-PAGE,Arabidopsis thaliana,V2
+Rugen,2021,PXD019253,Light_I,,BN-PAGE,Arabidopsis thaliana,V2
+Rugen,2021,PXD019253,Light_II,,BN-PAGE,Arabidopsis thaliana,V2
+Rugen,2021,PXD019253,Light_III,,BN-PAGE,Arabidopsis thaliana,V2
+Rugen,2021,PXD019253,Light_IV,,BN-PAGE,Arabidopsis thaliana,V2
+Rugen,2021,PXD019253,Light_V,,BN-PAGE,Arabidopsis thaliana,V2
+SaeLee,2022,PXD030050,ghosts_6840_1DDM_SEC,Spectral counts,SEC,Homo sapiens,V2
+SaeLee,2022,PXD030050,Ghosts_6061_DDM_BiobasicSEC-2,Spectral counts,SEC,Homo sapiens,V2
+SaeLee,2022,PXD030050,Ghosts_6061_DDM_HIC,Spectral counts,HIC,Homo sapiens,V2
+SaeLee,2022,PXD030050,ghosts_3801_1DDM_ingel,Spectral counts,,Homo sapiens,V2
+SaeLee,2022,PXD030050,ghosts_8994_2_5DIBMA_BioBasic_SEC,Spectral counts,SEC,Homo sapiens,V2
+SaeLee,2022,PXD030050,ghosts_8994_2_5DIBMA_BioSep_SEC,Spectral counts,SEC,Homo sapiens,V2
+SaeLee,2022,PXD030050,Ghosts_1006_1percent_TX100_HIC,Spectral counts,HIC,Homo sapiens,V2
+SaeLee,2022,PXD030050,Hemolysate_6569_old_SEC_Ctrl,Spectral counts,SEC,Homo sapiens,V2
+SaeLee,2022,PXD030050,Hemolysate_6569_old_SEC_RNAseA,Spectral counts,SEC,Homo sapiens,V2
+SaeLee,2022,PXD030050,Hemolysate_6569_young_SEC_Ctrl,Spectral counts,SEC,Homo sapiens,V2
+SaeLee,2022,PXD030050,Hemolysate_6569_young_SEC_RNAseA,Spectral counts,SEC,Homo sapiens,V2
+SaeLee,2022,PXD030050,Hemolysate_9330_old_SEC,Spectral counts,SEC,Homo sapiens,V2
+SaeLee,2022,PXD030050,RBC_lysate_Pierce_IP_lysis_6840_HIC,Spectral counts,HIC,Homo sapiens,V2
+SaeLee,2022,PXD030050,whole_rbc_IP_lysis,Spectral counts,SEC,Homo sapiens,V2
+SaeLee,2022,PXD030050,Ghosts_1percentDDM_3801_BiobasicSEC,Spectral counts,SEC,Homo sapiens,V2
+SaeLee,2022,PXD030050,Ghosts_1percentDDM__IEX_3801,Spectral counts,IEX,Homo sapiens,V2
+SaeLee,2022,PXD030050,Ghosts_1percentDDM,Spectral counts,SEC,Homo sapiens,V2
+SaeLee,2022,PXD030050,Ghosts_3801_DDM_WWC,Spectral counts,IEX,Homo sapiens,V2
+SaeLee,2022,PXD030050,Ghosts_old_9330_BioSep_SEC_TX-100,Spectral counts,SEC,Homo sapiens,V2
+SaeLee,2022,PXD030050,Hemolysate6569_SEC_ctrlRNaseA,Spectral counts,SEC,Homo sapiens,V2
+SaeLee,2022,PXD030050,Hemolysate6569_SEC_RNaseA,Spectral counts,SEC,Homo sapiens,V2
+SaeLee,2022,PXD030050,Hemolysate_8994_IEX-3,Spectral counts,IEX,Homo sapiens,V2
+SaeLee,2022,PXD030050,Hemolysate_6061_HIC,Spectral counts,HIC,Homo sapiens,V2
+SaeLee,2022,PXD030050,Hemolysate_IEX,Spectral counts,IEX,Homo sapiens,V2
+SaeLee,2022,PXD030050,Hemolysate_IEX_2,Spectral counts,IEX,Homo sapiens,V2
+SaeLee,2022,PXD030050,Hemolysate_SEC,Spectral counts,SEC,Homo sapiens,V2
+SaeLee,2022,PXD030050,Hemolysate_8994_WWC,Spectral counts,IEX,Homo sapiens,V2
+SaeLee,2022,PXD030050,RBC_soluble_WWC,Spectral counts,IEX,Homo sapiens,V2
+SaeLee,2022,PXD030050,RBC_ghosts1_WWC,Spectral counts,IEX,Homo sapiens,V2
+SaeLee,2022,PXD030050,Plasma_SEC,Spectral counts,SEC,Homo sapiens,V2
+SaeLee,2022,PXD030050,Platelet_SEC,Spectral counts,SEC,Homo sapiens,V2
+Skinnider,2021,PXD022309,Kidney2,SILAC,SEC,Mus musculus,V2
+Skinnider,2021,PXD022309,Muscle2,SILAC,SEC,Mus musculus,V2
+Skinnider,2021,PXD022309,Heart2,SILAC,SEC,Mus musculus,V2
+Skinnider,2021,PXD022309,Liver2,SILAC,SEC,Mus musculus,V2
+Skinnider,2021,PXD022309,Lung2,SILAC,SEC,Mus musculus,V2
+Skinnider,2021,PXD022309,Thymus2,SILAC,SEC,Mus musculus,V2
+Spaniol,2022,PXD023443,wtA,,BN-PAGE,Chlamydomonas reinhardtii,V2
+Spaniol,2022,PXD023443,wtB,,BN-PAGE,Chlamydomonas reinhardtii,V2
+Spaniol,2022,PXD023443,wtC,,BN-PAGE,Chlamydomonas reinhardtii,V2
+Spaniol,2022,PXD023443,lpa2D,,BN-PAGE,Chlamydomonas reinhardtii,V2
+Spaniol,2022,PXD023443,lpa2E,,BN-PAGE,Chlamydomonas reinhardtii,V2
+Spaniol,2022,PXD023443,lpa2F,,BN-PAGE,Chlamydomonas reinhardtii,V2
+Stenton,2021,PXD021385,S108718,,BN-PAGE,Homo sapiens,V2
+Stenton,2021,PXD021385,S97817,,BN-PAGE,Homo sapiens,V2
+Stenton,2021,PXD021386,P108718,,BN-PAGE,Homo sapiens,V2
+Stenton,2021,PXD021386,P97817,,BN-PAGE,Homo sapiens,V2
+Stenton,2021,PXD021386,P99307ACAD9,,BN-PAGE,Homo sapiens,V2
+Stenton,2021,PXD021500,P127242,,BN-PAGE,Homo sapiens,V2
+Stenton,2021,PXD021500,P97816,,BN-PAGE,Homo sapiens,V2
+Stenton,2021,PXD022340,KO,,BN-PAGE,Homo sapiens,V2
+Stenton,2021,PXD022340,WT,,BN-PAGE,Homo sapiens,V2
+Szczepanowska,2020,PXD017614,KO_01,,BN-PAGE,Mus musculus,V2
+Szczepanowska,2020,PXD017614,KO_02,,BN-PAGE,Mus musculus,V2
+Szczepanowska,2020,PXD017614,WT_01,,BN-PAGE,Mus musculus,V2
+Szczepanowska,2020,PXD017614,WT_02,,BN-PAGE,Mus musculus,V2
+Szczepanowska,2020,PXD017463,KO2,SILAC,BN-PAGE,Mus musculus,V2
+Szczepanowska,2020,PXD017463,WT2,SILAC,BN-PAGE,Mus musculus,V2
+Szczepanowska,2020,PXD017465,6h,SILAC,BN-PAGE,Mus musculus,V2
+Szczepanowska,2020,PXD017465,7h,SILAC,BN-PAGE,Mus musculus,V2
+Szibor,2020,PXD014016,AOX,,BN-PAGE,Mus musculus,V2
+Veyel,2018,PXD009714,1108,,SEC,Arabidopsis thaliana,V2
+Veyel,2018,PXD009714,1408,,SEC,Arabidopsis thaliana,V2
+Veyel,2018,PXD009714,2108,,SEC,Arabidopsis thaliana,V2
+Vidali,2021,PXD022855,WT,,BN-PAGE,Mus musculus,V2
+Vidali,2021,PXD022855,Hom,,BN-PAGE,Mus musculus,V2
+Vidali,2021,PXD022856,Control,,BN-PAGE,Homo sapiens,V2
+Vidali,2021,PXD022856,Patient1,,BN-PAGE,Homo sapiens,V2
+Vidali,2021,PXD022856,Patient2,,BN-PAGE,Homo sapiens,V2
+Warnsmann,2021,PXD029352,6d,,BN-PAGE,Podospora anserina,V2
+Warnsmann,2021,PXD029352,18d,,BN-PAGE,Podospora anserina,V2
+Xu,2021,IPX0001620001,SEC1,,SEC,Synechocystis sp. PCC 6803,V2
+Xu,2021,IPX0001620001,SEC2,,SEC,Synechocystis sp. PCC 6803,V2
+Xu,2021,IPX0001620001,SEC3,,SEC,Synechocystis sp. PCC 6803,V2
+Xu,2021,IPX0001620001,PCC6803_sucrose,,Sucrose,Synechocystis sp. PCC 6803,V2
+Xu,2022,IPX0002954001,SEC1_Heterocyst,,SEC,Anabaena sp. 7120,V2
+Xu,2022,IPX0002954001,SEC1_Vegetative,,SEC,Anabaena sp. 7120,V2
+Xu,2022,IPX0002954001,SEC2_Heterocyst,,SEC,Anabaena sp. 7120,V2
+Xu,2022,IPX0002954001,SEC2_Vegetative,,SEC,Anabaena sp. 7120,V2
+Xu,2022,IPX0002954001,SEC3_Heterocyst,,SEC,Anabaena sp. 7120,V2
+Xu,2022,IPX0002954001,SEC3_Vegetative,,SEC,Anabaena sp. 7120,V2
